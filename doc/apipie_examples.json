@@ -1,0 +1,33 @@
+{
+    "tiny_urls#create": [
+    {
+        "verb": "POST",
+        "path": "/api/tiny_url",
+        "query": null,
+        "code": 200,
+        "show_in_doc": 1,
+        "recorded": false,
+        "request_data": "https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=encryption%20algorithms",
+        "page": 1,
+        "response_data": {
+                "shortend_url": "http://localhost:3000/?9993b89",
+                "message": "Successfully Created"
+            }
+        }
+        ],
+        "tiny_urls#get_url": [
+    {
+        "verb": "GET",
+        "path": "/api/tiny_urls/",
+        "query": null,
+        "code": 404,
+        "show_in_doc": 1,
+        "recorded": false,
+        "request_data": "http://localhost:3000/?390721523456",
+        "page": 1,
+        "response_data": {
+                "message": "No URL Found"
+            }
+        }
+        ]
+        }

@@ -1,0 +1,7 @@
+en:
+  hello: "Hello world"
+  api:
+      tiny_urls:
+        no_data_found: "No URL Found"
+        successfully_created: "Shortend Url Created Successfully"
+        invalid_url: "Invalid url. Please enter a valid url"
